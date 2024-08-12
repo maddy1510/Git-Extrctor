@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.link_box {
+  display: flex;
+  width: 100%;
+  border: 2px solid transparent;
+}
+
+.landing_items {
+  display: grid;
+  width: 50%;
+  height: auto;
+  border: 2px solid transparent;
+  margin: 10px 20px;
+  background: transparent;
+}
+
+.landing_links {
+  font-size: 22px;
+  color: #154360;
+  font-family: Arial, sans-serif; /* Default font */
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  border-radius: 20px 26px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: font-family 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  background-color: #ffea4a;
+}
+
+.landing_links:hover {
+  color: aliceblue;
+  background-color: #330033;
+  font-family: 'Poppins', sans-serif; /* Font on hover */
+}
+
+.link_img {
+  width: 200px;
+  text-align: center;
+  height: 200px;
+  margin: 7px auto;
+}
+
+.Features_Landing_page {
+  text-align: center;
+  margin: 40px auto;
+  font-weight: 700;
+  color: #154360;
+}
+
+@media screen and (max-width: 786px) {
+  .landingmain {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+  }
+  .link_box {
+    display: grid;
+    width: 100%;
+    border: 2px solid transparent;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .landing_items {
+    display: grid;
+    border-radius: 12px 12px;
+    width: 100%;
+    height: auto;
+    padding: 0 12px;
+    border: 2px solid transparent;
+    margin: 10px auto;
+    background: white;
+  }
+}

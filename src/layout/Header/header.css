@@ -1,0 +1,40 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Logo Styles */
+.logo {
+    padding: 2px;
+    margin-left: 20px;
+}
+
+/* Toggle Button Styles */
+.toggle {
+    background-image: url('../../lgo.png');
+    clip-path: circle() !important;
+    margin-right: 20px;
+}
+
+/* Navbar Items Styles */
+.items {
+    margin: 10px !important;
+    color: #154360 !important;
+    font-family: 'Poppins', sans-serif !important; /* Changed to Poppins */
+    font-size: 18px !important;
+}
+
+.items:hover {
+    color: rgb(153, 128, 95);
+    font-size: 20px !important;
+}
+
+/* Logout Button Styles */
+#logout:hover {
+    color: red !important;
+    font-weight: 200 !important;
+}
+
+/* Navbar Text Styles */
+.navbar-text {
+    font-family: 'Poppins', sans-serif !important; /* Ensure Poppins for username */
+    color: #000; /* Optional: Adjust text color */
+}
